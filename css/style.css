@@ -25,6 +25,7 @@
     --header-line-color: #ECECEC;
     --bacgroung-portfolio-links: rgba(33, 150, 243, 0.9);
     --backdrop-color: rgba(0, 0, 0, 0.2);
+    --backgroung-footer-color: #2F303A;
 }
 
 /* html {
@@ -823,7 +824,7 @@ h2, .advantages{
 }
 
 footer{
-    background-color: #2F303A;
+    background-color: var(--backgroung-footer-color);
     padding-bottom: 21px;
 }
 
@@ -887,6 +888,48 @@ footer{
     text-align: left;
 }
 
+.subscribe{
+    margin-top: 57px;
+    margin-left: 94px;
+}
+
+.subscribe-urge{
+    color: var(--third-text-color);
+    font-size: 14px;
+    line-height: 1.14;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.subscribe-form{
+    display: flex;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.subscribe-form__field{
+
+}
+
+.subscribe-form__field-label{
+
+}
+
+.subscribe-form__field-input{
+    padding-left: 12px;
+    width: 358px;
+    height: 50px;
+
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    line-height: 1.87;
+
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
 .developers{
     color: var(--developers-color);
     font-size: 12px;
@@ -896,6 +939,30 @@ footer{
     margin-bottom: 0;
     padding-top: 18px;
     border-top: 1px solid var(--line-developers-color);
+}
+
+.submit{
+    display: flex;
+    align-items: center;
+    padding-left: 29px;
+    margin-left: 12px;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--third-text-color);
+    background-color: var(--link-color);
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.submit-svg{
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
 }
 
 /* 
