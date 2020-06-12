@@ -471,7 +471,7 @@ textarea:not(:placeholder-shown)+.comments-text {
   color: var(--link-color);
 }
 
-/* Размеры свг-спрайтов в модальном окне */
+/* свг-спрайты в модальном окне */
 .form-list__item-image{
     position: absolute;
     margin: 14px 0px 14px 19px;
@@ -510,6 +510,7 @@ textarea:not(:placeholder-shown)+.comments-text {
 
 
 .button-send{
+    display: inline-block;
     margin-top: 30px;
     
     width: 200px;
@@ -525,6 +526,7 @@ textarea:not(:placeholder-shown)+.comments-text {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
+    cursor: pointer;
 }
 
 /* Преимущества */
