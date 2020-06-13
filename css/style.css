@@ -323,6 +323,9 @@ span.last-name{
     padding-top: 40px;
     padding-bottom: 40px;
 
+    width: 528px;
+    height: 581px;
+
     background-color: var(--third-text-color);
     border-radius: 4px;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);   
@@ -363,12 +366,11 @@ span.last-name{
     height: 11px;
 }
 
-/* .form-list{
-    width: 528px;
-    height: 581px;
+/* .form{
+
 } */
 
-.form .form-list__call{
+.form .form-call{
     display: block;
     font-size: 20px;
     line-height: 23px;
@@ -379,18 +381,12 @@ span.last-name{
     padding: 0;
 }
 
-/* .form-list__item{
-    display: flex;
-    flex-direction: column;
-} */
-
-.form-list__item-label{
-    position: relative;
+.form-list__item{
     margin-top: 28px;
     display: block; 
 }
 
-.form-list__item-label:first-child{
+.form-list__item:first-child{
     margin-top: 30px;
 }
 
@@ -407,7 +403,7 @@ span.last-name{
 .form-list__item-text{
     position: absolute;
     top: 50%;
-    left: +42px;
+    left: 42px;
     transform: translateY(-50%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -429,7 +425,6 @@ textarea, input {
 }
 
 .form-list__item-colomn{
-    position: relative;
     padding-left: 42px;
     width: 448px;
     height: 40px;
@@ -676,6 +671,8 @@ h2, .advantages{
 
 
 .team-flex{
+    margin: 0;
+    padding: 0;
     display: flex;
 }
 
