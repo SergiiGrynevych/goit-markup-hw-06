@@ -45,71 +45,6 @@
             <button class="link" data-modal-open>Заказать услугу</button>
         </section>
 
-        <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-                <button class="modal-button" data-modal-close>
-                    <svg class="modal-close">
-                        <use href="./images/sprite-cross.svg#icon-cross"></use>
-                    </svg>
-                </button>
-
-                <form action="form" class="form">
-                    <b class="form-call">Оставьте свои данные, мы вам перезвоним</b>
-                    <div class="form-list__item first">
-                        <label class="form-list__item-label">
-                            <svg class="form-list__item-image"  width="12" height="12">
-                                <use href="./images/sprite.svg#icon-person"></use>
-                            </svg>
-                            <input type="text" class="form-list__item-colomn" placeholder=" ">
-
-                            <span class="form-list__item-text">Имя</span> 
-
-                        </label>
-                    </div>
-
-                    <div class="form-list__item">
-                        <label class="form-list__item-label">
-                            <svg class="form-list__item-image telephone" width="13" height="13">
-                                <use href="./images/sprite.svg#icon-telephone"></use>
-                            </svg>
-                            <input type="tel" name="telephone" class="form-list__item-colomn" placeholder=" "> 
-                                    
-                            <span class="form-list__item-text">Телефон</span>
-                        </label>
-                    </div>
-                    <div class="form-list__item">
-                        <label class="form-list__item-label">
-                            <svg class="form-list__item-image envelope " width="15" height="12">
-                                <use href="./images/sprite.svg#icon-e-mail" ></use>
-                            </svg>
-                            <input type="email" name="email" class="form-list__item-colomn" placeholder=" ">
-                                    
-                            <span class="form-list__item-text">Почта</span>
-                        </label>
-                    </div>
-                    <div class="form-list__item">
-                        <label class="form-list__item-label">
-                            <textarea name="comment" rows="5" placeholder=" "   class="form-list__item-colomn comments"></textarea>
-                            <span class="comments-text">Комментарий</span>
-                        </label>
-                    </div>
-
-                    <div class="form-mailing">
-                            <label>
-                                <input type="checkbox" class="checbox">
-                            </label>
-                        <p>Соглашаюсь с рассылкой и принимаю 
-                            <a href="" class="form-mailing__link">Условия договора</a>
-                        </p>
-                    </div>
-                    <button type="submit" class="button-send">Отправить</button>
-                </form>
-            </div>            
-        </div>
-
-        
-        
-
         <section>
             <!--Скрытый заголовок-->
             <h2 class="visually-hidden">Преимущества</h2>
@@ -173,7 +108,6 @@
                     </li>
                 </ul>
             </div>
-            
         </section>
 
         <section class="team">
@@ -375,6 +309,68 @@
             </div>
         </section>
     </main>
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="modal-button" data-modal-close>
+                <svg class="modal-close">
+                    <use href="./images/sprite-cross.svg#icon-cross"></use>
+                </svg>
+            </button>
+
+            <form action="form" class="form">
+                <b class="form-call">Оставьте свои данные, мы вам перезвоним</b>
+                <div class="form-list__item first">
+                    <label class="form-list__item-label">
+                        <svg class="form-list__item-image"  width="12" height="12">
+                            <use href="./images/sprite.svg#icon-person"></use>
+                        </svg>
+                        <input type="text" class="form-list__item-colomn" placeholder=" ">
+
+                        <span class="form-list__item-text">Имя</span> 
+
+                    </label>
+                </div>
+
+                <div class="form-list__item">
+                    <label class="form-list__item-label">
+                        <svg class="form-list__item-image telephone" width="13" height="13">
+                            <use href="./images/sprite.svg#icon-telephone"></use>
+                        </svg>
+                        <input type="tel" name="telephone" class="form-list__item-colomn" placeholder=" "> 
+                                
+                        <span class="form-list__item-text">Телефон</span>
+                    </label>
+                </div>
+                <div class="form-list__item">
+                    <label class="form-list__item-label">
+                        <svg class="form-list__item-image envelope " width="15" height="12">
+                            <use href="./images/sprite.svg#icon-e-mail" ></use>
+                        </svg>
+                        <input type="email" name="email" class="form-list__item-colomn" placeholder=" ">
+                                
+                        <span class="form-list__item-text">Почта</span>
+                    </label>
+                </div>
+                <div class="form-list__item">
+                    <label class="form-list__item-label">
+                        <textarea name="comment" rows="5" placeholder=" "   class="form-list__item-colomn comments"></textarea>
+                        <span class="comments-text">Комментарий</span>
+                    </label>
+                </div>
+
+                <div class="form-mailing">
+                        <label>
+                            <input type="checkbox" class="checbox">
+                        </label>
+                    <p>Соглашаюсь с рассылкой и принимаю 
+                        <a href="" class="form-mailing__link">Условия договора</a>
+                    </p>
+                </div>
+                <button type="submit" class="button-send">Отправить</button>
+            </form>
+        </div>            
+    </div>
 
     <footer>
         <div class="container footer">
