@@ -52,8 +52,54 @@
                         <use href="./images/sprite-cross.svg#icon-cross"></use>
                     </svg>
                 </button>
-            </div>
 
+                <form class="form-list">
+                    <b class="form-list__call">Оставьте свои данные, мы вам перезвоним</b>
+                    <div class="form-list__item">
+                        <label class="form-list__item-label">
+
+                            <input type="name" class="form-list__item-colomn" placeholder=" ">                                
+                            <svg class="form-list__item-image"  width="12" height="12">
+                                <use href="./images/sprite.svg#icon-person"></use>
+                            </svg>
+                            <span class="form-list__item-text">Имя</span> 
+                        </label>
+
+                        <label class="form-list__item-label">
+
+                            <input type="tel" name="telephone" class="form-list__item-colomn" placeholder=" "> 
+                                
+                            <span class="form-list__item-text">Телефон</span>
+                            <svg class="form-list__item-image telephone" width="13" height="13">
+                                <use href="./images/sprite.svg#icon-telephone"></use>
+                            </svg>
+                        </label>
+
+                        <label class="form-list__item-label">
+
+                            <input type="email" name="email" class="form-list__item-colomn" placeholder=" ">
+                            <svg class="form-list__item-image envelope " width="15" height="12">
+                                <use href="./images/sprite.svg#icon-e-mail" ></use>
+                            </svg>
+                            <span class="form-list__item-text">Почта</span>
+                        </label>
+
+                        <label class="form-list__item-label">
+                            <textarea name="comment" rows="5" placeholder=" "   class="form-list__item-colomn comments"></textarea>
+                            <span class="comments-text">Комментарий</span>
+                        </label>
+                    </div>
+
+                    <div class="form-mailing">
+                        <label>
+                            <input type="checkbox" class="checbox">
+                        </label>
+                        <p>Соглашаюсь с рассылкой и принимаю 
+                            <a href="" class="form-mailing__link" target="blanc">Условия договора</a></p>
+                    </div>
+                    <button type="submit" class="button-send">Отправить</button>
+                </form>
+            </div>            
         </div>
 
         <section>
@@ -372,26 +418,23 @@
                     </ul>
                 </div>
 
-                <form class="subscribe">
+                <div class="subscribe">
                     <b class="subscribe-urge">Подпишитесь на рассылку</b>
-                    <ul class="subscribe-form">
-                        <li>
-                            <form action="" class="subscribe-form__field">
-                                <label for="email" class="subscribe-form__field-label">
-                                    <input type="email" name="email" class="subscribe-form__field-input" placeholder="E-mail">
-                                </label>
-                            </form>
-                        </li>
+                    <div class="subscribe-form">
+                        <form action="" class="subscribe-form__field">
+                            <label class="subscribe-form__field-label">
+                                <input type="email" name="email" class="subscribe-form__field-input" placeholder="E-mail">
+                            </label>
+                        </form>
                         
-                        <li>
-                            <button type="submit" class="submit">Подписаться
-                                <svg class="submit-svg">
-                                    <use href="./images/sprite.svg#icon-icon-send"></use>
-                                </svg>
-                            </button>
-                        </li>
-                    </ul>
-                </form>
+                        <button type="submit" class="submit">Подписаться
+                            <svg class="submit-svg">
+                                <use href="./images/sprite.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </div>
+
+                </div>
                 
             </section>
             <p class="developers">2020 | Developed by GoIT Students</p>
