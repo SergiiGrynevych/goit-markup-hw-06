@@ -55,65 +55,54 @@
 
                 <form action="form" class="form">
                     <b class="form-call">Оставьте свои данные, мы вам перезвоним</b>
-                    <ul class="form-list">
-                        <li class="form-list__item">
-                            <form action="">
-                                <label for="" class="form-list__item-label">
-                                    <svg class="form-list__item-image"  width="12" height="12">
-                                        <use href="./images/sprite.svg#icon-person"></use>
-                                    </svg>
-                                    <input type="name" class="form-list__item-colomn" placeholder=" ">
+                    <div class="form-list__item">
+                        <label class="form-list__item-label">
+                            <svg class="form-list__item-image"  width="12" height="12">
+                                <use href="./images/sprite.svg#icon-person"></use>
+                            </svg>
+                            <input type="name" class="form-list__item-colomn" placeholder=" ">
 
-                                    <span class="form-list__item-text">Имя</span> 
+                            <span class="form-list__item-text">Имя</span> 
 
-                                </label>
-                            </form>
-                        </li>
-                        
-                        <li class="form-list__item">
-                            <form action="">
-                                <label for="" class="form-list__item-label">
-                                    <svg class="form-list__item-image telephone" width="13" height="13">
-                                        <use href="./images/sprite.svg#icon-telephone"></use>
-                                    </svg>
-                                    <input type="tel" name="telephone" class="form-list__item-colomn" placeholder=" "> 
-                                    
-                                    <span class="form-list__item-text">Телефон</span>
-                                </label>
-                            </form>
-                        </li>
-                        <li class="form-list__item">
-                            <form action="" class="form-list__item-form">
-                                <label for="" class="form-list__item-label">
-                                    <svg class="form-list__item-image envelope " width="15" height="12">
-                                        <use href="./images/sprite.svg#icon-e-mail" ></use>
-                                    </svg>
-                                    <input type="email" name="email" class="form-list__item-colomn" placeholder=" ">
-                                    
-                                    <span class="form-list__item-text">Почта</span>
-                                    
-                                </label>
-                            </form>
-                        </li>
-                        <li class="form-list__item">
-                            <form action="" class="form-list__item-form">
-                                <label for="" class="form-list__item-label">
-                                    <textarea name="comment" rows="5" placeholder=" "   class="form-list__item-colomn comments"></textarea>
-                                    <span class="comments-text">Комментарий</span>
-                                </label>
+                        </label>
+                    </div>
 
-                            </form>
-                        </li>
-                    </ul>
+                    <div class="form-list__item">
+                        <label class="form-list__item-label">
+                            <svg class="form-list__item-image telephone" width="13" height="13">
+                                <use href="./images/sprite.svg#icon-telephone"></use>
+                            </svg>
+                            <input type="tel" name="telephone" class="form-list__item-colomn" placeholder=" "> 
+                                    
+                            <span class="form-list__item-text">Телефон</span>
+                        </label>
+                    </div>
+                    <div class="form-list__item">
+                        <label class="form-list__item-label">
+                            <svg class="form-list__item-image envelope " width="15" height="12">
+                                <use href="./images/sprite.svg#icon-e-mail" ></use>
+                            </svg>
+                            <input type="email" name="email" class="form-list__item-colomn" placeholder=" ">
+                                    
+                            <span class="form-list__item-text">Почта</span>
+                        </label>
+                    </div>
+                    <div class="form-list__item">
+                        <label class="form-list__item-label">
+                            <textarea name="comment" rows="5" placeholder=" "   class="form-list__item-colomn comments"></textarea>
+                            <span class="comments-text">Комментарий</span>
+                        </label>
+                    </div>
 
                     <div class="form-mailing">
                         <form action="">
-                            <label for="">
+                            <label>
                                 <input type="checkbox" class="checbox">
                             </label>
                         </form>
                         <p>Соглашаюсь с рассылкой и принимаю 
-                            <a href="" class="form-mailing__link">Условия договора</a></p>
+                            <a href="" class="form-mailing__link">Условия договора</a>
+                        </p>
                     </div>
                     <button type="submit" class="button-send">Отправить</button>
                 </form>

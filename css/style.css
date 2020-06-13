@@ -773,6 +773,8 @@ h2, .advantages{
 }
 
 .partners{
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: space-between;
     /* padding-bottom: 94px; */
