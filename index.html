@@ -55,12 +55,12 @@
 
                 <form action="form" class="form">
                     <b class="form-call">Оставьте свои данные, мы вам перезвоним</b>
-                    <div class="form-list__item">
+                    <div class="form-list__item first">
                         <label class="form-list__item-label">
                             <svg class="form-list__item-image"  width="12" height="12">
                                 <use href="./images/sprite.svg#icon-person"></use>
                             </svg>
-                            <input type="name" class="form-list__item-colomn" placeholder=" ">
+                            <input type="text" class="form-list__item-colomn" placeholder=" ">
 
                             <span class="form-list__item-text">Имя</span> 
 
@@ -95,11 +95,9 @@
                     </div>
 
                     <div class="form-mailing">
-                        <form action="">
                             <label>
                                 <input type="checkbox" class="checbox">
                             </label>
-                        </form>
                         <p>Соглашаюсь с рассылкой и принимаю 
                             <a href="" class="form-mailing__link">Условия договора</a>
                         </p>
@@ -428,23 +426,20 @@
                     </ul>
                 </div>
 
-                <form class="subscribe">
+                <div class="subscribe">
                     <b class="subscribe-urge">Подпишитесь на рассылку</b>
-                    <div class="subscribe-form">
-                        <form action="" class="subscribe-form__field">
-                            <label for="email" class="subscribe-form__field-label">
-                                <input type="email" name="email" class="subscribe-form__field-input" placeholder="E-mail">
-                            </label>
-                        </form>
-                        
+                    <form action="" class="subscribe-form">
+                        <label for="email">
+                            <input type="email" name="email" class="subscribe-form__field-input" placeholder="E-mail">
+                        </label>
                         <button type="submit" class="submit">Подписаться
                             <svg class="submit-svg">
                                 <use href="./images/sprite.svg#icon-send"></use>
                             </svg>
                         </button>
-                    </div>
-                </form>
-                
+                    </form>
+                </div>
+            
             </section>
             <p class="developers">2020 | Developed by GoIT Students</p>
         </div>
