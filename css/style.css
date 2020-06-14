@@ -472,15 +472,12 @@ textarea:not(:placeholder-shown)+.comments-text {
 /* свг-спрайты в модальном окне */
 .form-list__item-image{
     position: absolute;
-    margin: 14px 0px 14px 19px;
-}
-
-.form-list__item-image.telephone{
-    margin: 13px 0px 14px 18px;
-}
-
-.form-list__item-image.envelope{
-    margin: 14px 0px 14px 18px;
+    width: 18px;
+    height: 18px;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    /* margin: 14px 0px 14px 19px; */
 }
 
 .form-mailing{

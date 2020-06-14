@@ -229,26 +229,19 @@
                     </ul>
                 </div>
 
-                <form class="subscribe">
+                <div class="subscribe">
                     <b class="subscribe-urge">Подпишитесь на рассылку</b>
-                    <ul class="subscribe-form">
-                        <li>
-                            <form action="" class="subscribe-form__field">
-                                <label for="email" class="subscribe-form__field-label">
-                                    <input type="email" name="email" class="subscribe-form__field-input" placeholder="E-mail">
-                                </label>
-                            </form>
-                        </li>
-                        
-                        <li>
-                            <button type="button" class="submit">Подписаться
-                                <svg class="submit-svg">
-                                    <use href="./images/sprite.svg#icon-send"></use>
-                                </svg>
-                            </button>
-                        </li>
-                    </ul>
-                </form>
+                    <form action="" class="subscribe-form" id="form-mailing">
+                        <label for="email">
+                            <input type="email" name="email" class="subscribe-form__field-input" placeholder="E-mail">
+                        </label>
+                        <button type="submit" class="submit">Подписаться
+                            <svg class="submit-svg">
+                                <use href="./images/sprite.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
                 
             </section>
             <p class="developers">2020 | Developed by GoIT Students</p>

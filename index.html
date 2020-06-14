@@ -318,11 +318,11 @@
                 </svg>
             </button>
 
-            <form action="form" class="form">
+            <form action="form" class="form" id="global-form">
                 <b class="form-call">Оставьте свои данные, мы вам перезвоним</b>
                 <div class="form-list__item first">
                     <label class="form-list__item-label">
-                        <svg class="form-list__item-image"  width="12" height="12">
+                        <svg class="form-list__item-image">
                             <use href="./images/sprite.svg#icon-person"></use>
                         </svg>
                         <input type="text" class="form-list__item-colomn" placeholder=" ">
@@ -334,7 +334,7 @@
 
                 <div class="form-list__item">
                     <label class="form-list__item-label">
-                        <svg class="form-list__item-image telephone" width="13" height="13">
+                        <svg class="form-list__item-image telephone">
                             <use href="./images/sprite.svg#icon-telephone"></use>
                         </svg>
                         <input type="tel" name="telephone" class="form-list__item-colomn" placeholder=" "> 
@@ -344,7 +344,7 @@
                 </div>
                 <div class="form-list__item">
                     <label class="form-list__item-label">
-                        <svg class="form-list__item-image envelope " width="15" height="12">
+                        <svg class="form-list__item-image envelope">
                             <use href="./images/sprite.svg#icon-e-mail" ></use>
                         </svg>
                         <input type="email" name="email" class="form-list__item-colomn" placeholder=" ">
@@ -424,7 +424,7 @@
 
                 <div class="subscribe">
                     <b class="subscribe-urge">Подпишитесь на рассылку</b>
-                    <form action="" class="subscribe-form">
+                    <form action="" class="subscribe-form" id="form-mailing">
                         <label for="email">
                             <input type="email" name="email" class="subscribe-form__field-input" placeholder="E-mail">
                         </label>
