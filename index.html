@@ -353,19 +353,20 @@
                     </label>
                 </div>
                 <div class="form-list__item">
-                    <label class="form-list__item-label">
+                    <div class="form-list__item-label">
                         <textarea name="comment" rows="5" placeholder=" "   class="form-list__item-colomn comments"></textarea>
-                        <span class="comments-text">Комментарий</span>
-                    </label>
+                        <label for="comment" class="comments-text">Комментарий</label>
+                    </div>
                 </div>
 
                 <div class="form-mailing">
-                        <label>
-                            <input type="checkbox" class="checbox">
-                        </label>
-                    <p>Соглашаюсь с рассылкой и принимаю 
-                        <a href="" class="form-mailing__link">Условия договора</a>
-                    </p>
+                    <label class="form-mailing__label">
+                        <input type="checkbox" class="checbox">
+                        <span class="checkbox-icon"></span>
+                            <p class="form-mailing__label-confirm">Соглашаюсь с рассылкой и принимаю 
+                                <a href="" class="form-mailing__label-link">Условия договора</a>
+                            </p>
+                    </label>
                 </div>
                 <button type="submit" class="button-send">Отправить</button>
             </form>

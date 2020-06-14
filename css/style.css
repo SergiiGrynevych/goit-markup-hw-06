@@ -439,6 +439,7 @@ textarea, input {
 
 .form-list__item-colomn.comments{
     resize: none;
+    display: block;
 }
 /* 
 .form-list__item-form{
@@ -448,7 +449,7 @@ textarea, input {
 .comments-text{
     position: absolute;
     
-    top: -94px;
+    top: 12px;
     left: 16px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -481,16 +482,49 @@ textarea:not(:placeholder-shown)+.comments-text {
 }
 
 .form-mailing{
-    display: flex;
-    justify-content: center;
+    /* display: inline-block; */
+    /* justify-content: center; */
     margin-top: 20px;
 }
 
-.checbox{
-    margin-right: 8.48px;
+.form-mailing__label{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    /* outline: 1px solid black; */
 }
 
-.form-mailing > p{
+.checbox{
+    position: absolute;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* margin-right: 8.48px; */
+}
+
+.checkbox-icon{
+    display: inline-block;
+    margin-right: 8px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid var(--primary-text-color);
+    border-radius: 4px;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checbox:checked + .checkbox-icon{
+    background-color: var(--link-color);
+    background-image: url(../images/icon-check.svg);
+    background-size: contain;
+    background-origin: border-box;
+    border-color: var(--link-color);
+    
+    /* background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.form-mailing__label-confirm{
     margin: 0;
     padding: 0;
     font-size: 14px;
@@ -498,7 +532,7 @@ textarea:not(:placeholder-shown)+.comments-text {
     color: var(--secondary-text-color);
 }
 
-.form-mailing__link{
+.form-mailing__label-link{
     color: var(--link-color);
     text-decoration-line: underline;
 }
